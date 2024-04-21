@@ -9,9 +9,17 @@ public class ThreadTest {
 
     public static void main(String[] args) {
 
-        // way 01
-        Thread thread = new Thread(new Something());
+        // way 00
+        Thread thread = new Thread() {
+            public void run() {
+                System.out.println("this is a thread");
+            }
+        };
         thread.start();
+
+        // way 01
+        Thread thread1 = new Thread(new Something());
+        thread1.start();
 
         // way 02
         Thread thread2 = new Thread(new Runnable() {
