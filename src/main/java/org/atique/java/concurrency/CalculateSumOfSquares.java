@@ -1,4 +1,4 @@
-package org.atique.java;
+package org.atique.java.concurrency;
 
 import java.util.List;
 import java.util.concurrent.RecursiveTask;

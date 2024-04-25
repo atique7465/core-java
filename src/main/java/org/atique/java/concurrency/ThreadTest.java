@@ -1,4 +1,4 @@
-package org.atique.java;
+package org.atique.java.concurrency;
 
 /**
  * @author atiQue
